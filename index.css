@@ -1,0 +1,16 @@
+
+
+header{
+    height: 70px;
+    width: 100%;
+    background-color: white;
+}
+
+nav{
+    height: 70px;
+    width: 90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
