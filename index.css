@@ -118,3 +118,13 @@ form input{
     padding: 10px;
     outline: none;
 }
+
+button{
+    padding: 15px 30px;
+    color: white;
+    background-color: #00afef;
+    border: none;
+    border-radius: 10px;
+    font-weight: bolder;
+    font-size: 15px;
+}
