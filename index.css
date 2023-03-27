@@ -71,15 +71,17 @@ text-decoration: none;
 /* main */
 .logo{
   position: absolute;
- margin-top: 5%;
+ margin-top: 15%;
  margin-left: 5%;
  line-height: 3rem;
  color: black;
+ 
 }
 
 .home{
-    height: 400px;
+    height: 600px;
     width: 100%;
+   background-color: whitesmoke;
 }
 
 .home2{
@@ -129,6 +131,10 @@ select{
     border-radius: 5px;
 }
 
+select{
+    background-color: whitesmoke;
+}
+
 .right{
     width: 50%;
     text-align: center;
@@ -154,4 +160,69 @@ button{
     border-radius: 10px;
     font-weight: bolder;
     font-size: 15px;
+}
+
+ /* footer */
+ footer{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: #5b6c7c;
+  }
+
+  .sm-foot{
+    height: 100px;
+    width: 100%;
+    background-color: black;
+    color: white;
+    display: none;
+  }
+
+  footer .foot{
+    height: 90px;
+    width:90%;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .foot .foota{
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+    gap: 3rem;
+  }
+
+  .foot .foota .log{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    color: #989898;
+  }
+
+  .foot .foota i{
+    font-size: 30px;
+    padding: 5px;
+  }
+
+
+  .foot .right{
+    width: 30%;
+
+  }
+
+.foot .footb{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    color: #989898;
+}
+
+.foot .copy{
+    display: flex;
+    justify-content: flex-end;
+    font-size: 12px;
 }

@@ -39,24 +39,71 @@
 
         <div class="right">
             <form action=""  id="form">
-                <input type="text" id="name" placeholder="Name"><br><br>
+                <p id="name_err"></p>
+                <input type="text" id="name"   placeholder="Name" required><br><br>
                 
-                <input type="number" id="number" placeholder="Phone Number"><br><br>
+                <p id="number_err"></p>
+                <input type="number" id="number"  placeholder="Phone Number" required><br><br>
 
-                <input type="email" id="email" placeholder="Email"><br><br>
+                <p id="email_err"></p>
+                <input type="email" id="email" required placeholder="Email"><br><br>
 
-                <input type="text" id="adress" placeholder="Adress"><br><br>
+                <p id="adress_err"></p>
+                <input type="text" id="adress"  placeholder="Adress" required><br><br>
 
-                <input type="text" id="note" placeholder="Enter a brief note"><br><br>
+                <p id="date_err"></p>
+                <input type="date" id="date" required><br><br>
 
-                <input type="date" id="date" ><br><br>
+                <p id="time_err"></p>
+                <input type="time" id="time"  placeholder="Time" required><br><br>
 
-                <input type="time" id="time" placeholder="Time" ><br><br>
+                <p id="visitor_err"></p>
+                <input type="number" id="number_of_visitor"  placeholder="Enter Number of Visitor" required><br><br>
+
+                <p id="note_err"></p>
+                <input type="text" id="note"  placeholder="Enter a brief note" required><br><br>
+
 
                 <button type="submit" id="btn" onclick="myfunction()">Submit</button>
             </form>
         </div>
     </div>
+
+    
+    <footer>
+        <div class="foot">
+            <div class="foota">
+                <div class="log">
+                    <p>Login</p>
+                    <p>|</p>
+                    <p>Shop</p>
+                    <p>|</p>
+                    <p>Sign up for the Test Class</p>
+                </div>
+
+                <div>
+                    <i class="fa-brands fa-linkedin"></i>
+                    <i class="fa-brands fa-twitter"></i>
+                </div>
+            </div>
+
+            <div class="right">
+                <div class="footb">
+                    <p>Terms & Conditions</p>
+                    <p>|</p>
+                    <p>Privacy</p>
+                    <p>|</p>
+                    <p>FAQ's</p>
+                </div>    
+
+                <div class="copy">
+                    <p>© Copyright 2012-2023 N-Reach Global. All rights reserved.
+                      All trademarks and logos are the property of their respective owners</p>
+                </div>
+                
+            </div>
+        </div>
+    </footer>
 
     <script src="index.js"></script>
 </body>
